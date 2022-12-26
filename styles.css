@@ -66,4 +66,6 @@ body {
     background: grey;
     color: white;
     transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+
 }
