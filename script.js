@@ -36,7 +36,7 @@ buttons.map((button)=>{
         }
         // //evaluate the input
         
-         else if(buttonValue == 'ans'){
+         else if(buttonValue == '='){
             screenValue = eval(screenDisplay.value)
             console.log(screenValue)
             screenDisplay.value=screenValue
