@@ -27,9 +27,11 @@ buttons.map((button)=>{
         
         //clear the screen
         
-       
+        if(buttonValue == 'clear'){
+            screenDisplay.value = ""
+        }
         // //reset the answer
-        if(buttonValue == 'reset'){
+        else if(buttonValue == 'reset'){
             screenDisplay.value = '0'
         }
         // //evaluate the input
