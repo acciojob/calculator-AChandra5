@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <title>Calculator</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <body>
+    <!-- the entire body must be written by student -->
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <!-- input/output display -->
+    <div class="container">
+      <input id="input" type="text" value="" />
+      <!-- number buttons -->
+      <div class="buttons">
+        <button id="block0" class="button">0</button>
+        <button id="block1" class="button">1</button>
+        <button id="block2" class="button">2</button>
+        <button id="block3" class="button">3</button>
+        <button id="block4" class="button">4</button>
+        <button id="block5" class="button">5</button>
+        <button id="block5" class="button">5</button>
+        <button id="block6" class="button">6</button>
+        <button id="block7" class="button">7</button>
+        <button id="block8" class="button">8</button>
+        <button id="block9" class="button">9</button>
+        <!-- operation buttons -->
+        <button id="plus" class="button">+</button>
+        <button id="minus" class="button">-</button>
+        <button id="multiply" class="button">*</button>
+        <button id="divide" class="button">/</button>
+        <!-- clear button -->
+        <!-- <button id="clear" class="button">clear</button> -->
+        <!-- decimal operations button -->
+        <button id="dot" class="button">.</button>
+        <!-- Answer display button -->
+        <button id="ans" class="button" style="background: green">ans</button>
+        <!-- reset button -->
+        <button id="clr" class="button">reset</button>
+      </div>
+    </div>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
